@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Code Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Clean Code Guide</h1>
+        <nav>
+            <ul>
+                <li><a href="#naming">Meaningful Naming</a></li>
+                <li><a href="#one-thing">Functions Should Do One Thing</a></li>
+                <li><a href="#dry">Don't Repeat Yourself (DRY)</a></li>
+                <li><a href="#comments">Commenting and Documentation</a></li>
+                <li><a href="#formatting">Code Formatting</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="naming">
+            <h2>Meaningful Naming</h2>
+            <p>Choose descriptive names for variables and functions to improve readability.</p>
+            <code>const userAge = 25;</code>
+        </section>
+        <section id="one-thing">
+            <h2>Functions Should Do One Thing</h2>
+            <p>A function should have a single responsibility.</p>
+            <code>function fetchUserData() { /* fetch data */ }</code>
+        </section>
+        <section id="dry">
+            <h2>Don't Repeat Yourself (DRY)</h2>
+            <p>Abstract out repeated code to avoid duplication.</p>
+            <code>function calculateTax(amount) { return amount * 0.2; }</code>
+        </section>
+        <section id="comments">
+            <h2>Commenting and Documentation</h2>
+            <p>Use comments sparingly and only to explain why certain decisions were made.</p>
+            <code>// Calculate tax for the user</code>
+        </section>
+        <section id="formatting">
+            <h2>Code Formatting</h2>
+            <p>Maintain consistent formatting and structure in your code.</p>
+            <code>if (isActive) {
+                activate();
+            }</code>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Clean Code Guide. Contributions are welcome!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
